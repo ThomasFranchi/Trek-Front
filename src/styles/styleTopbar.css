@@ -1,0 +1,125 @@
+/* General */
+#topbar {
+  display: flex;
+  background: #E5D9B6;
+  box-shadow: 0 3px 10px 0 #605b4b;
+  flex-direction: row;
+  width: 100%;
+}
+
+.topbar-line {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5px 25px;
+  padding: 10px 15px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.logo {
+  object-fit: contain;
+  max-width: 12%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.profileButton {
+  background-color: orange;
+  box-shadow: 2px 2px 8px rgb(129, 84, 0);
+  height: 40px;
+  width: 120px;
+  margin: 10px;
+  border-radius: 30px;
+  border-style: none;
+  text-align: center;
+  padding: 3px;
+}
+
+.profileButton:hover {
+  background-color: rgb(203, 245, 139);
+  box-shadow: 2px 2px 12px rgb(133, 160, 92);
+}
+
+.buttondeco {
+border-radius: 30px;
+height: 20px;
+width: 110px;
+border-style: none;
+background: #E5D9B6;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.buttondeco:hover {
+  border-radius: 30px;
+  height: 20px;
+  width: 110px;
+  border-style: none;
+  background: #e7d6a1;
+  }
+
+#guideButtons
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Partie Commune */
+.linkDiv {
+  margin: 0px 20px;
+}
+
+.link {
+  transition: 0.3s;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 22px;
+  color: #095228;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/* .link:hover {
+  border-bottom: 2px solid #582900;
+  padding-bottom: 15px;
+  font-size: 20px;
+} */
+
+.sideIcon {
+  max-width: 10%;
+  vertical-align: middle;
+  margin: 0px 15px;
+}
+
+/* Connecté */
+
+.userIcon {
+  width: 5%;
+  height: auto;
+}
+
+.line {
+  display: inline-flex;
+  color: #ffffff;
+  margin: 0px 25px;
+  align-items: center;
+  justify-content: end;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1280px) {
+  .link {
+    font-size: 0px;
+    width: 0%;
+  }
+  .link:hover {
+    font-size: 0px;
+    width: 0%;
+  }
+  .sideIcon {
+    max-width: 50%;
+  }
+}

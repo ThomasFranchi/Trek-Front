@@ -1,0 +1,58 @@
+.post {
+    background-color:#fbf3db;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:3vw 20vw;
+    border : 5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+.post:hover {
+    border : 5px solid orange;
+}
+
+.imgContainer {
+    flex:1; 
+}
+
+.parcoursImage {
+    flex:2;
+   object-fit: contain; 
+   width:100%;
+   margin: 5px;
+   border: 3px solid white;
+   border-radius: 10px;
+}
+
+.imgInfosContainer {
+   display: flex;
+}
+
+.infosContainer {
+    flex:1; 
+    font-size: 16px;
+    text-align: center;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.descriptionContainer {
+    flex:1; 
+    text-align: left;
+    padding-left: 10px;
+}
+
+.userInfo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #582900;
+}
+
+.etoile {
+    width: 6%;
+}
+
+.buttonParcours {
+    margin: 10px;
+}

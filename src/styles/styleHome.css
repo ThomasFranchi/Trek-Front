@@ -1,0 +1,48 @@
+#homecontainer {
+    background-image: url("../assets/pictures/background.jpg");
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 100vh;
+    width: 100wh;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.loginFormButton {
+    padding: 50px 25px;
+}
+
+.button {
+    background-color: orange;
+    box-shadow: 2px 2px 8px rgb(129, 84, 0);
+    height: 80px;
+    width: 240px;
+    margin: 10px;
+    border-radius: 30px;
+    border-style: none;
+    text-align: center;
+    padding: 3px;
+    font-size: 24px;
+}
+
+.button:hover {
+    background-color: #af4c4c;
+    border: 2px solid #af4c4c;
+    color: white;
+}
+
+
+/* When connected */
+.liform {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 3px;
+}
+
+.logohp {
+    height: 60px;
+}

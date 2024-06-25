@@ -1,0 +1,49 @@
+.postGuides {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#fbf3db;
+    border : 5px solid transparent;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.postGuides:hover{
+    border-radius: 10px;
+    border: 5px solid orange; 
+}
+
+.guideProfilPicture {
+    flex:2;
+    object-fit: contain; 
+    width:100%;
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.guideProfil1 {
+flex:4;
+}
+
+.guideProfil2 {
+    flex:4;
+} 
+
+.guideProfil3{
+    flex:4;
+}
+
+.guideProfil4{
+    flex:4;
+} 
+
+.guideProfil5{
+    flex:4;
+} 
+
+.guideInfo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #582900;
+}

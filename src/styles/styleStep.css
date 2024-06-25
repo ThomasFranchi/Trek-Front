@@ -1,0 +1,67 @@
+.editContainer{
+    background-color:#fbf3db;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:3vw 17vw;
+    border : 5px solid transparent;
+    box-shadow: 1px 1px 5px black;
+}
+
+.stepButtonContainer {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid transparent;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  margin:20px;
+}
+
+.stepButtonContainer:hover {
+    border : 5px solid orange;
+}
+
+.stepContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #fbf3db;
+  border-radius: 5px;
+}
+
+.imgStepContainer {
+    flex:2;
+}
+
+.stepImage {
+    object-fit: contain; 
+    width:100%;
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.stepMiddleInfo {
+    flex:3;
+    margin: 5px;
+    padding-left:15px;
+}
+
+.nomInfo, .latitudeInfo, .longitudeInfo, .descriptionInfo {
+    flex:1;
+    font-size: 12px;
+    text-align: left;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.descriptionInfo {
+    flex:8;
+    margin: 5px;
+}
+
+
+

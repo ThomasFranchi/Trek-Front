@@ -1,0 +1,86 @@
+.parcoursregistercontainer {
+    transition-duration: 300ms;
+    height: min-content;
+    width: fit-content;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #fbf3db;
+    color:#582900;
+    display:inline-flex; 
+    flex-direction: column;
+    margin-top:30px;
+    padding:15px; 
+}
+
+h3 {
+    text-align: center;
+}
+#buttonForm
+{
+    align-items: center;
+}
+
+input {
+    width: 90%;
+    border: 2px solid transparent;
+    outline: none;
+    border-bottom: 2px solid #582900;
+    caret-color: #582900;
+    background-color: #fbf3db;
+    padding: 5px;
+    margin: 10px;
+    transition: .3s linear;
+    font-family: monospace;
+    letter-spacing: 1px;
+  }
+  
+  input:focus {
+    border-radius: 30px;
+    border: 3px solid #095228;
+    caret-color: #095228;
+    padding-left: 10px;
+
+  }
+   
+button {
+    background-color: orange;
+    box-shadow: 2px 2px 8px rgb(129, 84, 0);
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 30px;
+    border-style: none;
+    text-align: center;
+    padding: 3px;
+}
+
+button:hover {
+    background-color: rgb(203, 245, 139);
+    box-shadow: 2px 2px 12px rgb(133, 160, 92);
+}
+
+.buttonContainer {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    border: 2px solid #582900;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1;
+    background-color: #fbf3db;
+    background-image: linear-gradient(to top, #fbf3db, #fbf3db 20%);
+}
+
+
+
+
+
+
+
+

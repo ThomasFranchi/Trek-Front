@@ -1,0 +1,53 @@
+
+
+.singleGuideTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #582900;
+}
+
+.guideContainer {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 40px auto;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    background-color:#fbf3db;
+    box-shadow: 1px 1px 5px black;
+}
+
+.guideTitleContainer {
+    flex:1;
+}
+
+.imgInfosContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgGuideContainer {
+ flex:1; 
+}
+
+.imgGuideProfil {
+    width: 50%;
+    border: 3px solid white; 
+    border-radius: 15px;
+}
+
+.guideInfosContainer {
+    flex:1; 
+    margin:auto;
+    text-align: center;
+} 
+
+.guideInfo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #582900;
+}
+
+.descriptionContainer {
+    flex:1;
+}

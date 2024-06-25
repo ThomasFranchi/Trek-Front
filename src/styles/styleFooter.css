@@ -1,0 +1,27 @@
+#footer
+{
+  clear: both;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  background: #E5D9B6;
+  box-shadow: 0 3px 10px 0 #605b4b;
+  width: 100%;
+  color: #095228;
+  align-items: center;
+}
+
+#homeFooter
+{
+  clear: both;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom:0;
+  background: #E5D9B6;
+  box-shadow: 0 3px 10px 0 #605b4b;
+  border: 1px solid #605b4b;
+  width: 100%;
+  color: #095228;
+  align-items: center;
+}

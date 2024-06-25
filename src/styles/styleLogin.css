@@ -1,0 +1,148 @@
+#page {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+.left {
+    background: #e5888894;
+    box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
+    margin: 0px 15px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #fbf3db;
+    color:#582900;
+    display:flex; 
+    flex-direction: column;
+    margin-top:30px;
+    padding:15px; 
+}
+
+hr {
+    border: 1px dashed #000000;
+    width: 75%;
+}
+
+/* Buttons admin and guide */
+.roleButton {
+    background-color: orange;
+    box-shadow: 2px 2px 8px rgb(129, 84, 0);
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 30px;
+    border-style: none;
+    text-align: center;
+    padding: 3px;
+}
+
+.roleButton:hover {
+    background-color: rgb(203, 245, 139);
+    box-shadow: 2px 2px 12px rgb(133, 160, 92);
+}
+
+.roleButton:target {
+    text-decoration: underline;
+}
+
+.right {
+    width: fit-content;
+    text-align: left;
+    border-radius: 5px;
+    margin: 0px 15px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #fbf3db;
+    color:#582900;
+    display:flex; 
+    flex-direction: column;
+    margin-top:30px;
+    padding:15px; 
+}
+
+/* Login Form */
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 15px 0px;
+    align-items: center;
+    align-content: center;
+}
+
+input {
+    width: 90%;
+    border: 2px solid transparent;
+    outline: none;
+    border-bottom: 2px solid #582900;
+    caret-color: #582900;
+    background-color: #fbf3db;
+    padding: 5px;
+    margin: 10px;
+    transition: .3s linear;
+    font-family: monospace;
+    letter-spacing: 1px;
+  }
+
+label
+{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Login button */
+.loginButton {
+    background-color: orange;
+    box-shadow: 2px 2px 8px rgb(129, 84, 0);
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 30px;
+    border-style: none;
+    text-align: center;
+    padding: 3px;
+}
+
+.loginButton:hover {
+    background-color: rgb(203, 245, 139);
+    box-shadow: 2px 2px 12px rgb(133, 160, 92);
+}
+
+.loginButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition-duration: 0.2s;
+  }
+
+.loginButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.0s;
+}
+
+.loginButton:hover span {
+    padding-right: 25px;
+}
+
+.loginButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #page {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
